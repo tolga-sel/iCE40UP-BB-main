@@ -1,0 +1,2 @@
+@W: CL271 :"C:\Users\ubu\my_designs\led_ice40up_bb\source\impl_1\counter_top.vhd":25:5:25:6|Pruning unused bits 31 to 26 of scounter_4(31 downto 0). If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
+

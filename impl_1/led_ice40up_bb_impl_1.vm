@@ -1,0 +1,536 @@
+//
+// Written by Synplify Pro 
+// Product Version "Q-2020.03LR-SP1-1"
+// Program "Synplify Pro", Mapper "map202003lat, Build 176R"
+// Wed Apr 28 16:35:38 2021
+//
+// Source file index table:
+// Object locations will have the form <file>:<line>
+// file 0 "\c:\lscc\radiant\2.2\synpbase\lib\vhd\std.vhd "
+// file 1 "\c:\lscc\radiant\2.2\synpbase\lib\vhd\snps_haps_pkg.vhd "
+// file 2 "\c:\lscc\radiant\2.2\synpbase\lib\vhd\std1164.vhd "
+// file 3 "\c:\lscc\radiant\2.2\synpbase\lib\vhd\numeric.vhd "
+// file 4 "\c:\lscc\radiant\2.2\synpbase\lib\vhd\umr_capim.vhd "
+// file 5 "\c:\lscc\radiant\2.2\synpbase\lib\vhd\arith.vhd "
+// file 6 "\c:\lscc\radiant\2.2\synpbase\lib\vhd\unsigned.vhd "
+// file 7 "\c:\lscc\radiant\2.2\synpbase\lib\vhd\hyperents.vhd "
+// file 8 "\c:\lscc\radiant\2.2\ip\pmi\pmi_ice40up.vhd "
+// file 9 "\c:\users\ubu\my_designs\led_ice40up_bb\source\impl_1\counter_top.vhd "
+// file 10 "\c:\lscc\radiant\2.2\cae_library\synthesis\vhdl\ice40up.vhd "
+// file 11 "\c:\lscc\radiant\2.2\synpbase\lib\nlconst.dat "
+
+`timescale 100 ps/100 ps
+module Counter (
+  clk,
+  en,
+  rst,
+  led
+)
+;
+input clk ;
+input en ;
+input rst ;
+output [2:0] led ;
+wire clk ;
+wire en ;
+wire rst ;
+wire [25:0] scounter;
+wire [25:23] scounter_i;
+wire [25:0] scounter_s;
+wire [24:0] \carry_pack.scounter_cry ;
+wire GND ;
+wire VCC ;
+wire clk_c ;
+wire en_c ;
+wire rst_c ;
+wire rst_c_i ;
+wire N_1 ;
+wire N_2 ;
+wire N_3 ;
+// @9:25
+  FD1P3DZ \scounter_Z[25]  (
+	.Q(scounter[25]),
+	.D(scounter_s[25]),
+	.CK(clk_c),
+	.CD(rst_c_i),
+	.SP(en_c)
+);
+// @9:25
+  FD1P3DZ \scounter_Z[24]  (
+	.Q(scounter[24]),
+	.D(scounter_s[24]),
+	.CK(clk_c),
+	.CD(rst_c_i),
+	.SP(en_c)
+);
+// @9:25
+  FD1P3DZ \scounter_Z[23]  (
+	.Q(scounter[23]),
+	.D(scounter_s[23]),
+	.CK(clk_c),
+	.CD(rst_c_i),
+	.SP(en_c)
+);
+// @9:25
+  FD1P3DZ \scounter_Z[22]  (
+	.Q(scounter[22]),
+	.D(scounter_s[22]),
+	.CK(clk_c),
+	.CD(rst_c_i),
+	.SP(en_c)
+);
+// @9:25
+  FD1P3DZ \scounter_Z[21]  (
+	.Q(scounter[21]),
+	.D(scounter_s[21]),
+	.CK(clk_c),
+	.CD(rst_c_i),
+	.SP(en_c)
+);
+// @9:25
+  FD1P3DZ \scounter_Z[20]  (
+	.Q(scounter[20]),
+	.D(scounter_s[20]),
+	.CK(clk_c),
+	.CD(rst_c_i),
+	.SP(en_c)
+);
+// @9:25
+  FD1P3DZ \scounter_Z[19]  (
+	.Q(scounter[19]),
+	.D(scounter_s[19]),
+	.CK(clk_c),
+	.CD(rst_c_i),
+	.SP(en_c)
+);
+// @9:25
+  FD1P3DZ \scounter_Z[18]  (
+	.Q(scounter[18]),
+	.D(scounter_s[18]),
+	.CK(clk_c),
+	.CD(rst_c_i),
+	.SP(en_c)
+);
+// @9:25
+  FD1P3DZ \scounter_Z[17]  (
+	.Q(scounter[17]),
+	.D(scounter_s[17]),
+	.CK(clk_c),
+	.CD(rst_c_i),
+	.SP(en_c)
+);
+// @9:25
+  FD1P3DZ \scounter_Z[16]  (
+	.Q(scounter[16]),
+	.D(scounter_s[16]),
+	.CK(clk_c),
+	.CD(rst_c_i),
+	.SP(en_c)
+);
+// @9:25
+  FD1P3DZ \scounter_Z[15]  (
+	.Q(scounter[15]),
+	.D(scounter_s[15]),
+	.CK(clk_c),
+	.CD(rst_c_i),
+	.SP(en_c)
+);
+// @9:25
+  FD1P3DZ \scounter_Z[14]  (
+	.Q(scounter[14]),
+	.D(scounter_s[14]),
+	.CK(clk_c),
+	.CD(rst_c_i),
+	.SP(en_c)
+);
+// @9:25
+  FD1P3DZ \scounter_Z[13]  (
+	.Q(scounter[13]),
+	.D(scounter_s[13]),
+	.CK(clk_c),
+	.CD(rst_c_i),
+	.SP(en_c)
+);
+// @9:25
+  FD1P3DZ \scounter_Z[12]  (
+	.Q(scounter[12]),
+	.D(scounter_s[12]),
+	.CK(clk_c),
+	.CD(rst_c_i),
+	.SP(en_c)
+);
+// @9:25
+  FD1P3DZ \scounter_Z[11]  (
+	.Q(scounter[11]),
+	.D(scounter_s[11]),
+	.CK(clk_c),
+	.CD(rst_c_i),
+	.SP(en_c)
+);
+// @9:25
+  FD1P3DZ \scounter_Z[10]  (
+	.Q(scounter[10]),
+	.D(scounter_s[10]),
+	.CK(clk_c),
+	.CD(rst_c_i),
+	.SP(en_c)
+);
+// @9:25
+  FD1P3DZ \scounter_Z[9]  (
+	.Q(scounter[9]),
+	.D(scounter_s[9]),
+	.CK(clk_c),
+	.CD(rst_c_i),
+	.SP(en_c)
+);
+// @9:25
+  FD1P3DZ \scounter_Z[8]  (
+	.Q(scounter[8]),
+	.D(scounter_s[8]),
+	.CK(clk_c),
+	.CD(rst_c_i),
+	.SP(en_c)
+);
+// @9:25
+  FD1P3DZ \scounter_Z[7]  (
+	.Q(scounter[7]),
+	.D(scounter_s[7]),
+	.CK(clk_c),
+	.CD(rst_c_i),
+	.SP(en_c)
+);
+// @9:25
+  FD1P3DZ \scounter_Z[6]  (
+	.Q(scounter[6]),
+	.D(scounter_s[6]),
+	.CK(clk_c),
+	.CD(rst_c_i),
+	.SP(en_c)
+);
+// @9:25
+  FD1P3DZ \scounter_Z[5]  (
+	.Q(scounter[5]),
+	.D(scounter_s[5]),
+	.CK(clk_c),
+	.CD(rst_c_i),
+	.SP(en_c)
+);
+// @9:25
+  FD1P3DZ \scounter_Z[4]  (
+	.Q(scounter[4]),
+	.D(scounter_s[4]),
+	.CK(clk_c),
+	.CD(rst_c_i),
+	.SP(en_c)
+);
+// @9:25
+  FD1P3DZ \scounter_Z[3]  (
+	.Q(scounter[3]),
+	.D(scounter_s[3]),
+	.CK(clk_c),
+	.CD(rst_c_i),
+	.SP(en_c)
+);
+// @9:25
+  FD1P3DZ \scounter_Z[2]  (
+	.Q(scounter[2]),
+	.D(scounter_s[2]),
+	.CK(clk_c),
+	.CD(rst_c_i),
+	.SP(en_c)
+);
+// @9:25
+  FD1P3DZ \scounter_Z[1]  (
+	.Q(scounter[1]),
+	.D(scounter_s[1]),
+	.CK(clk_c),
+	.CD(rst_c_i),
+	.SP(en_c)
+);
+// @9:25
+  FD1P3DZ \scounter_Z[0]  (
+	.Q(scounter[0]),
+	.D(scounter_s[0]),
+	.CK(clk_c),
+	.CD(rst_c_i),
+	.SP(en_c)
+);
+  LUT4 \led_obuf_RNO[0]  (
+	.A(scounter[23]),
+	.B(GND),
+	.C(GND),
+	.D(GND),
+	.Z(scounter_i[23])
+);
+defparam \led_obuf_RNO[0] .INIT="0x5555";
+  LUT4 \led_obuf_RNO[1]  (
+	.A(scounter[24]),
+	.B(GND),
+	.C(GND),
+	.D(GND),
+	.Z(scounter_i[24])
+);
+defparam \led_obuf_RNO[1] .INIT="0x5555";
+  LUT4 \led_obuf_RNO[2]  (
+	.A(scounter[25]),
+	.B(GND),
+	.C(GND),
+	.D(GND),
+	.Z(scounter_i[25])
+);
+defparam \led_obuf_RNO[2] .INIT="0x5555";
+  LUT4 rst_ibuf_RNIUUM5 (
+	.A(rst_c),
+	.B(GND),
+	.C(GND),
+	.D(GND),
+	.Z(rst_c_i)
+);
+defparam rst_ibuf_RNIUUM5.INIT="0x5555";
+// @9:9
+  IB clk_ibuf (
+	.I(clk),
+	.O(clk_c)
+);
+// @9:10
+  IB en_ibuf (
+	.I(en),
+	.O(en_c)
+);
+// @9:11
+  IB rst_ibuf (
+	.I(rst),
+	.O(rst_c)
+);
+// @9:12
+  OB \led_obuf[0]  (
+	.I(scounter_i[23]),
+	.O(led[0])
+);
+// @9:12
+  OB \led_obuf[1]  (
+	.I(scounter_i[24]),
+	.O(led[1])
+);
+// @9:12
+  OB \led_obuf[2]  (
+	.I(scounter_i[25]),
+	.O(led[2])
+);
+  CCU2_B \scounter_RNO[25]  (
+	.CIN(\carry_pack.scounter_cry [24]),
+	.A0(scounter[25]),
+	.A1(GND),
+	.B0(GND),
+	.B1(GND),
+	.C0(GND),
+	.C1(GND),
+	.COUT(N_1),
+	.S0(scounter_s[25]),
+	.S1(N_2)
+);
+defparam \scounter_RNO[25] .INIT0="0x55AA";
+defparam \scounter_RNO[25] .INIT1="0xC33C";
+// @9:25
+  CCU2_B \scounter_cry_c_0[23]  (
+	.CIN(\carry_pack.scounter_cry [22]),
+	.A0(GND),
+	.A1(GND),
+	.B0(scounter[23]),
+	.B1(scounter[24]),
+	.C0(GND),
+	.C1(GND),
+	.COUT(\carry_pack.scounter_cry [24]),
+	.S0(scounter_s[23]),
+	.S1(scounter_s[24])
+);
+defparam \scounter_cry_c_0[23] .INIT0="0x9966";
+defparam \scounter_cry_c_0[23] .INIT1="0x9966";
+// @9:25
+  CCU2_B \scounter_cry_c_0[21]  (
+	.CIN(\carry_pack.scounter_cry [20]),
+	.A0(GND),
+	.A1(GND),
+	.B0(scounter[21]),
+	.B1(scounter[22]),
+	.C0(GND),
+	.C1(GND),
+	.COUT(\carry_pack.scounter_cry [22]),
+	.S0(scounter_s[21]),
+	.S1(scounter_s[22])
+);
+defparam \scounter_cry_c_0[21] .INIT0="0x9966";
+defparam \scounter_cry_c_0[21] .INIT1="0x9966";
+// @9:25
+  CCU2_B \scounter_cry_c_0[19]  (
+	.CIN(\carry_pack.scounter_cry [18]),
+	.A0(GND),
+	.A1(GND),
+	.B0(scounter[19]),
+	.B1(scounter[20]),
+	.C0(GND),
+	.C1(GND),
+	.COUT(\carry_pack.scounter_cry [20]),
+	.S0(scounter_s[19]),
+	.S1(scounter_s[20])
+);
+defparam \scounter_cry_c_0[19] .INIT0="0x9966";
+defparam \scounter_cry_c_0[19] .INIT1="0x9966";
+// @9:25
+  CCU2_B \scounter_cry_c_0[17]  (
+	.CIN(\carry_pack.scounter_cry [16]),
+	.A0(GND),
+	.A1(GND),
+	.B0(scounter[17]),
+	.B1(scounter[18]),
+	.C0(GND),
+	.C1(GND),
+	.COUT(\carry_pack.scounter_cry [18]),
+	.S0(scounter_s[17]),
+	.S1(scounter_s[18])
+);
+defparam \scounter_cry_c_0[17] .INIT0="0x9966";
+defparam \scounter_cry_c_0[17] .INIT1="0x9966";
+// @9:25
+  CCU2_B \scounter_cry_c_0[15]  (
+	.CIN(\carry_pack.scounter_cry [14]),
+	.A0(GND),
+	.A1(GND),
+	.B0(scounter[15]),
+	.B1(scounter[16]),
+	.C0(GND),
+	.C1(GND),
+	.COUT(\carry_pack.scounter_cry [16]),
+	.S0(scounter_s[15]),
+	.S1(scounter_s[16])
+);
+defparam \scounter_cry_c_0[15] .INIT0="0x9966";
+defparam \scounter_cry_c_0[15] .INIT1="0x9966";
+// @9:25
+  CCU2_B \scounter_cry_c_0[13]  (
+	.CIN(\carry_pack.scounter_cry [12]),
+	.A0(GND),
+	.A1(GND),
+	.B0(scounter[13]),
+	.B1(scounter[14]),
+	.C0(GND),
+	.C1(GND),
+	.COUT(\carry_pack.scounter_cry [14]),
+	.S0(scounter_s[13]),
+	.S1(scounter_s[14])
+);
+defparam \scounter_cry_c_0[13] .INIT0="0x9966";
+defparam \scounter_cry_c_0[13] .INIT1="0x9966";
+// @9:25
+  CCU2_B \scounter_cry_c_0[11]  (
+	.CIN(\carry_pack.scounter_cry [10]),
+	.A0(GND),
+	.A1(GND),
+	.B0(scounter[11]),
+	.B1(scounter[12]),
+	.C0(GND),
+	.C1(GND),
+	.COUT(\carry_pack.scounter_cry [12]),
+	.S0(scounter_s[11]),
+	.S1(scounter_s[12])
+);
+defparam \scounter_cry_c_0[11] .INIT0="0x9966";
+defparam \scounter_cry_c_0[11] .INIT1="0x9966";
+// @9:25
+  CCU2_B \scounter_cry_c_0[9]  (
+	.CIN(\carry_pack.scounter_cry [8]),
+	.A0(GND),
+	.A1(GND),
+	.B0(scounter[9]),
+	.B1(scounter[10]),
+	.C0(GND),
+	.C1(GND),
+	.COUT(\carry_pack.scounter_cry [10]),
+	.S0(scounter_s[9]),
+	.S1(scounter_s[10])
+);
+defparam \scounter_cry_c_0[9] .INIT0="0x9966";
+defparam \scounter_cry_c_0[9] .INIT1="0x9966";
+// @9:25
+  CCU2_B \scounter_cry_c_0[7]  (
+	.CIN(\carry_pack.scounter_cry [6]),
+	.A0(GND),
+	.A1(GND),
+	.B0(scounter[7]),
+	.B1(scounter[8]),
+	.C0(GND),
+	.C1(GND),
+	.COUT(\carry_pack.scounter_cry [8]),
+	.S0(scounter_s[7]),
+	.S1(scounter_s[8])
+);
+defparam \scounter_cry_c_0[7] .INIT0="0x9966";
+defparam \scounter_cry_c_0[7] .INIT1="0x9966";
+// @9:25
+  CCU2_B \scounter_cry_c_0[5]  (
+	.CIN(\carry_pack.scounter_cry [4]),
+	.A0(GND),
+	.A1(GND),
+	.B0(scounter[5]),
+	.B1(scounter[6]),
+	.C0(GND),
+	.C1(GND),
+	.COUT(\carry_pack.scounter_cry [6]),
+	.S0(scounter_s[5]),
+	.S1(scounter_s[6])
+);
+defparam \scounter_cry_c_0[5] .INIT0="0x9966";
+defparam \scounter_cry_c_0[5] .INIT1="0x9966";
+// @9:25
+  CCU2_B \scounter_cry_c_0[3]  (
+	.CIN(\carry_pack.scounter_cry [2]),
+	.A0(GND),
+	.A1(GND),
+	.B0(scounter[3]),
+	.B1(scounter[4]),
+	.C0(GND),
+	.C1(GND),
+	.COUT(\carry_pack.scounter_cry [4]),
+	.S0(scounter_s[3]),
+	.S1(scounter_s[4])
+);
+defparam \scounter_cry_c_0[3] .INIT0="0x9966";
+defparam \scounter_cry_c_0[3] .INIT1="0x9966";
+// @9:25
+  CCU2_B \scounter_cry_c_0[1]  (
+	.CIN(\carry_pack.scounter_cry [0]),
+	.A0(GND),
+	.A1(GND),
+	.B0(scounter[1]),
+	.B1(scounter[2]),
+	.C0(GND),
+	.C1(GND),
+	.COUT(\carry_pack.scounter_cry [2]),
+	.S0(scounter_s[1]),
+	.S1(scounter_s[2])
+);
+defparam \scounter_cry_c_0[1] .INIT0="0x9966";
+defparam \scounter_cry_c_0[1] .INIT1="0x9966";
+// @9:25
+  CCU2_B \scounter_cry_c_0[0]  (
+	.CIN(),
+	.A0(GND),
+	.A1(GND),
+	.B0(VCC),
+	.B1(scounter[0]),
+	.C0(VCC),
+	.C1(GND),
+	.COUT(\carry_pack.scounter_cry [0]),
+	.S0(N_3),
+	.S1(scounter_s[0])
+);
+defparam \scounter_cry_c_0[0] .INIT0="0xC33C";
+defparam \scounter_cry_c_0[0] .INIT1="0x9966";
+  VLO GND_cZ (
+	.Z(GND)
+);
+  VHI VCC_cZ (
+	.Z(VCC)
+);
+endmodule /* Counter */
+

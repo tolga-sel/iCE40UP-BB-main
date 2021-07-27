@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RadiantProject version="4.1" title="led_ice40up_bb" device="iCE40UP5K-SG48I" performance_grade="High-Performance_1.2V" default_implementation="impl_1">
+    <Options/>
+    <Implementation title="impl_1" dir="impl_1" description="impl_1" synthesis="synplify" default_strategy="Strategy1">
+        <Options def_top="Counter"/>
+        <Source name="source/impl_1/counter_top.vhd" type="VHDL" type_short="VHDL">
+            <Options top_module="Counter"/>
+        </Source>
+        <Source name="impl_1/io.pdc" type="Physical Constraints File" type_short="PDC">
+            <Options/>
+        </Source>
+        <Source name="source/impl_1.xcf" type="Programming Project File" type_short="Programming">
+            <Options/>
+        </Source>
+    </Implementation>
+    <Strategy name="Strategy1" file="led_ice40up_bb1.sty"/>
+</RadiantProject>

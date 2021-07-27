@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<BaliMessageLog>
+    <Task name="Export">
+        <Message>
+            <ID>1191031</ID>
+            <Severity>1</Severity>
+        </Message>
+    </Task>
+    <Task name="Synthesis">
+        <Message>
+            <ID>2019991</ID>
+            <Severity>16</Severity>
+            <Dynamic>CL271 :&quot;C:\Users\ubu\my_designs\led_ice40up_bb\source\impl_1\counter_top.vhd&quot;:25:5:25:6|Pruning unused bits 31 to 26 of scounter_4(31 downto 0). If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.</Dynamic>
+            <Navigation>CL271</Navigation>
+            <Navigation>C:\Users\ubu\my_designs\led_ice40up_bb\source\impl_1\counter_top.vhd</Navigation>
+            <Navigation>25</Navigation>
+            <Navigation>5</Navigation>
+            <Navigation>25</Navigation>
+            <Navigation>6</Navigation>
+            <Navigation>Pruning unused bits 31 to 26 of scounter_4(31 downto 0). If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>16</Severity>
+            <Dynamic>MT530 :&quot;c:\users\ubu\my_designs\led_ice40up_bb\source\impl_1\counter_top.vhd&quot;:25:5:25:6|Found inferred clock Counter|clk which controls 26 sequential elements including scounter[25:0]. This clock has no specified timing constraint which may adversely impact design performance.</Dynamic>
+            <Navigation>MT530</Navigation>
+            <Navigation>c:\users\ubu\my_designs\led_ice40up_bb\source\impl_1\counter_top.vhd</Navigation>
+            <Navigation>25</Navigation>
+            <Navigation>5</Navigation>
+            <Navigation>25</Navigation>
+            <Navigation>6</Navigation>
+            <Navigation>Found inferred clock Counter|clk which controls 26 sequential elements including scounter[25:0]. This clock has no specified timing constraint which may adversely impact design performance. </Navigation>
+        </Message>
+        <Message>
+            <ID>2019993</ID>
+            <Severity>16</Severity>
+            <Dynamic>MT420 |Found inferred clock Counter|clk with period 5.00ns. Please declare a user-defined clock on port clk.</Dynamic>
+            <Navigation>MT420</Navigation>
+            <Navigation>Found inferred clock Counter|clk with period 5.00ns. Please declare a user-defined clock on port clk.</Navigation>
+        </Message>
+        <Message>
+            <ID>35811146</ID>
+            <Severity>1</Severity>
+            <Dynamic>scounter_cry_c_0[0].CIN</Dynamic>
+        </Message>
+    </Task>
+    <Task name="Map">
+        <Message>
+            <ID>52291017</ID>
+            <Severity>1</Severity>
+            <Dynamic>led[2]</Dynamic>
+            <Dynamic>41</Dynamic>
+        </Message>
+        <Message>
+            <ID>52291017</ID>
+            <Severity>1</Severity>
+            <Dynamic>led[1]</Dynamic>
+            <Dynamic>40</Dynamic>
+        </Message>
+        <Message>
+            <ID>52291017</ID>
+            <Severity>1</Severity>
+            <Dynamic>led[0]</Dynamic>
+            <Dynamic>39</Dynamic>
+        </Message>
+    </Task>
+</BaliMessageLog>

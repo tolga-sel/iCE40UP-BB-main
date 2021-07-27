@@ -1,0 +1,127 @@
+[[Info]]
+_PARENT: none
+_FAMILY: iCE40UP
+_FILE_FORMAT: 1.00
+_DATA_VALUES: 1.00
+_STATUS: Final
+
+[[Project]]
+DesignName: impl_1
+Family: iCE40UP
+Device: iCE40UP5K
+Package: SG48
+Performance: High-Performance_1.2V
+Operating: Industrial
+PartName: iCE40UP5K-SG48I
+Version: 0.1
+
+[[Settings]]
+SoftwareMode: Estimation
+EstimationMode: Medium
+ProcessType: Typical
+SectionY: Total Power
+SectionX: Vcc
+SectionLowerLimit: 1.14
+SectionUpperLimit: 1.26
+SectionResolution: 0.024
+TempAmbY: Total Power
+TempAmbX: Ambient Temperature
+TempAmbLowerLimit: 0
+TempAmbUpperLimit: 85
+TempAmbResolution: 17
+FreqY: Total Power
+FreqX: No Clocks Found!
+FreqLowerLimit: 10
+FreqUpperLimit: 100
+FreqAmbResolution: 20
+
+[[Thermal]]
+AmbientTemperature: 25
+JunctionTemperature: 25.00
+MaxSafeAmbient: 99.98
+thetaOption: ThermalModels
+thetaBoard: Medium Board
+thetaHeatSink: No Heat Sink
+ThetaJA: 
+UserThetaJA: No
+ThetaJB: 
+UserThetaJB: No
+ThetaBA: 
+UserThetaBA: No
+ThetaJC: 
+UserThetaJC: No
+ThetaCS: 
+UserThetaCS: No
+ThetaSA: 0.0
+CustomThetaSA: 0.0
+UserThetaSA: No
+ThetaEffective: 15.7603546
+UserThetaEffective: No
+Airflow: 200 LFM
+
+[[VDPM]]
+Supply = Voltage, DPM
+Vcc = 1.200, 1.00
+Vccio 3.3 = 3.300, 1.00
+Vccio 2.5 = 2.500, 1.00
+Vccio 1.8 = 1.800, 1.00
+Vccio 1.2 = 1.200, 1.00
+0.000 = 0.00, 
+
+[[Logic]]
+Clock Name = Freq. (MHz), AF (%), # Logic LUTs, # Registers, # Carry, #GLB2LOCAL, #X0, #X1, #X4, #PX4, #TX4, #X12, #TX12, #X12X4, #ISB, #PISB, #INBYPASS, #OEBYPASS, #OUTBYPASS, #CASCADE, #CLK, #LSR, #CE, #LCMUX, #PLCCARRY, #LUTRIPPLE
+
+[[Clocks]]
+Clock Name = Freq. (MHz), AF (%), CLKEN Duty Cycle (%), # Pfeedpad, #Pfeedfab, #Pfeedosc, # Ptrunk, #Pspine, # Ptap
+
+[[Input Output]]
+Clock Name = Input Type, Output Type, Freq. (MHz), AF (%), # I/P, # O/P, Cload (pF), Bank, Pullmode, #GLB2LOCAL, #X0, #X1, #X4, #PX4, #TX4, #X12, #TX12, #X12X4, #ISB, #PISB, #INBYPASS, #OEBYPASS, #OUTBYPASS, #CASCADE, #CLK, #LSR, #CE, #LCMUX, #CARRY, #LUTRIPPLE
+
+[[Bidi]]
+Clock Name = Bi Type, Bi Freq. (MHz), Input AF (%), # Bidi, Duty Cycle (%), Cload (pF), Bank, Pullmode, #GLB2LOCAL, #X0, #X1, #X4, #PX4, #TX4, #X12, #TX12, #X12X4, #ISB, #PISB, #INBYPASS, #OEBYPASS, #OUTBYPASS, #CASCADE, #CLK, #LSR, #CE, #LCMUX, #CARRY, #LUTRIPPLE
+
+[[IOLOGIC]]
+Input Clock Name = Input Freq. (MHz), Input AF (%), Output Clock Name, Output Freq. (MHz), Output AF (%), #IOL, Type
+
+[[Bank Voltage]]
+Bank = Voltage (V), Clock Name, Freq. (MHz), AF (%), #IP, #OP, #Bidi, #Conditional, Blank, Baseline, DiffIn, DiffOut
+0 = Vccio 3.3, _CLKNAME, 0^d^, 10^d^, 0, 0, 0, 1, Bank0_Blank, Bank0_Baseline, Bank0_DiffIn, Bank0_DiffOut
+1 = Vccio 3.3, _CLKNAME, 0^d^, 10^d^, 0, 0, 0, 1, Bank1_Blank, Bank0_Baseline, Bank0_DiffIn, Bank0_DiffOut
+2 = Vccio 3.3, _CLKNAME, 0^d^, 10^d^, 0, 0, 0, 1, Bank2_Blank, Bank0_Baseline, Bank0_DiffIn, Bank0_DiffOut
+
+[[PLL]]
+Output Clock A Name = Out Freq. A (MHz), Out AF A (%), Output Clock B Name, Out Freq. B (MHz), Out AF B (%), # PLL, Type, Allow Standby
+
+[[EBR]]
+Rd Clock Name = Rd CLK Freq. (MHz), Rd CLK AF (%), # EBR Blocks, Wr Clock Name, Wr CLK Freq. (MHz), Wr CLK AF (%), RdType, WrType, Duty Cycle (%), #GLB2LOCAL, #X0, #X1, #X4, #PX4, #TX4, #X12, #TX12, #X12X4, #ISB, #PISB, #INBYPASS, #OEBYPASS, #OUTBYPASS, #CASCADE, #CLK, #LSR, #CE, #LCMUX, #CARRY, #LUTRIPPLE
+
+[[DSP]]
+Clock Name = Freq. (MHz), AF (%), #DSP, Type
+
+[[SRAM]]
+Clock Name = Freq. (MHz), AF (%), #SRAM, Type, Allow Standby
+
+[[LEDDA IP]]
+Clock Name = Freq. (MHz), AF (%), #LEDDA IP, Type
+
+[[RGBA DRV]]
+Clock Name = Freq. (MHz), AF (%), #RGBA DRV, Type, Bank
+
+[[LFOSC]]
+Clock Name = Freq. (MHz), AF (%), #LFOSC, Type
+
+[[HFOSC]]
+Clock Name = Freq. (MHz), AF (%), #HFOSC, Type
+
+[[I2C]]
+Clock Name = Freq. (MHz), AF (%), #I2C, Type
+
+[[SPI]]
+Clock Name = Freq. (MHz), AF (%), #SPI, Type
+
+[[FILTER]]
+Clock Name = Freq. (MHz), AF (%), #FILTER, Type
+
+[[WARMBOOT]]
+Clock Name = Freq. (MHz), AF (%), #WARMBOOT, Type
+

@@ -1,0 +1,14 @@
+#Start recording tcl command: 4/28/2021 16:28:58
+#Project Location: C:/Users/ubu/my_designs/led_ice40up_bb; Project name: led_ice40up_bb
+prj_create -name "led_ice40up_bb" -impl "impl_1" -dev iCE40UP5K-SG48I -performance "High-Performance_1.2V" -synthesis "synplify"
+prj_save 
+prj_add_source -exclude "C:/Users/ubu/my_designs/led_ice40up_bb/source/impl_1/counter_top.pcf"
+prj_enable_source "C:/Users/ubu/my_designs/led_ice40up_bb/source/impl_1/counter_top.pcf"
+prj_remove_source "C:/Users/ubu/my_designs/led_ice40up_bb/source/impl_1/counter_top.pcf"
+prj_add_source "C:/Users/ubu/my_designs/led_ice40up_bb/source/impl_1/counter_top.vhd"
+prj_run Synthesis -impl impl_1
+prj_add_source "C:/Users/ubu/my_designs/led_ice40up_bb/impl_1/io.pdc"
+prj_enable_source "C:/Users/ubu/my_designs/led_ice40up_bb/impl_1/io.pdc"
+prj_run Export -impl impl_1
+launch_programmer_prj "C:/lscc/radiant/2.2"
+#Stop recording: 4/28/2021 16:55:43

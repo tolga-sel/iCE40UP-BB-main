@@ -1,0 +1,7 @@
+C:\lscc\radiant\2.2\synpbase\bin64\syn_nfilter.exe  -link  -top  Counter  -multisrs  C:\Users\ubu\my_designs\led_ice40up_bb\impl_1\synwork\led_ice40up_bb_impl_1_comp.srs  -osyn  C:\Users\ubu\my_designs\led_ice40up_bb\impl_1\synwork\led_ice40up_bb_impl_1_mult.srs  -log  C:\Users\ubu\my_designs\led_ice40up_bb\impl_1\synlog\led_ice40up_bb_impl_1_multi_srs_gen.srr 
+relcom:..\..\..\..\..\..\lscc\radiant\2.2\synpbase\bin64\syn_nfilter.exe -link -top Counter -multisrs ..\synwork\led_ice40up_bb_impl_1_comp.srs -osyn ..\synwork\led_ice40up_bb_impl_1_mult.srs -log ..\synlog\led_ice40up_bb_impl_1_multi_srs_gen.srr
+rc:0 success:1 runtime:0
+file:..\synwork\led_ice40up_bb_impl_1_comp.srs|io:i|time:1619620532|size:1819|exec:0|csum:C6642A8D0694D6558FE64BCEEE11C447
+file:..\synwork\led_ice40up_bb_impl_1_mult.srs|io:o|time:1619620534|size:1577|exec:0|csum:
+file:..\synlog\led_ice40up_bb_impl_1_multi_srs_gen.srr|io:o|time:1619620534|size:1044|exec:0|csum:
+file:..\..\..\..\..\..\lscc\radiant\2.2\synpbase\bin64\syn_nfilter.exe|io:i|time:1614717246|size:8875520|exec:1|csum:DEAC094E0979015541C7D52095C602B7

@@ -1,0 +1,1 @@
+@W: MT530 :"c:\users\ubu\my_designs\led_ice40up_bb\source\impl_1\counter_top.vhd":25:5:25:6|Found inferred clock Counter|clk which controls 26 sequential elements including scounter[25:0]. This clock has no specified timing constraint which may adversely impact design performance. 

@@ -1,0 +1,398 @@
+# Wed Apr 28 16:35:36 2021
+
+
+Copyright (C) 1994-2020 Synopsys, Inc.
+This Synopsys software and all associated documentation are proprietary to Synopsys, Inc.
+and may only be used pursuant to the terms and conditions of a written license agreement
+with Synopsys, Inc. All other use, reproduction, modification, or distribution of the
+Synopsys software or the associated documentation is strictly prohibited.
+Tool: Synplify Pro (R)
+Build: Q-2020.03LR-SP1-1
+Install: C:\lscc\radiant\2.2\synpbase
+OS: Windows 6.2
+
+Hostname: DESKTOP-3K3974S
+
+Implementation : impl_1
+Synopsys Lattice Technology Mapper, Version map202003lat, Build 176R, Built Mar  2 2021 10:26:35, @
+
+
+Mapper Startup Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 117MB peak: 117MB)
+
+@N: MF916 |Option synthesis_strategy=base is enabled. 
+@N: MF248 |Running in 64-bit mode.
+@N: MF667 |Clock conversion disabled. (Command "set_option -fix_gated_and_generated_clocks 0" in the project file.)
+
+Design Input Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 120MB peak: 128MB)
+
+
+Mapper Initialization Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 120MB peak: 128MB)
+
+
+Start loading timing files (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 121MB peak: 128MB)
+
+
+Finished loading timing files (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 123MB peak: 128MB)
+
+
+
+Starting Optimization and Mapping (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 159MB peak: 159MB)
+
+
+Available hyper_sources - for debug and ip models
+	None Found
+
+
+Finished RTL optimizations (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 162MB peak: 162MB)
+
+@N: MO231 :"c:\users\ubu\my_designs\led_ice40up_bb\source\impl_1\counter_top.vhd":25:5:25:6|Found counter in view:work.Counter(behavioral) instance scounter[25:0] 
+
+Starting factoring (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 162MB peak: 162MB)
+
+
+Finished factoring (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 162MB peak: 163MB)
+
+
+Finished generic timing optimizations - Pass 1 (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 163MB peak: 163MB)
+
+
+Starting Early Timing Optimization (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 163MB peak: 163MB)
+
+
+Finished Early Timing Optimization (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 163MB peak: 163MB)
+
+
+Finished generic timing optimizations - Pass 2 (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 163MB peak: 163MB)
+
+
+Finished preparing to map (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 163MB peak: 163MB)
+
+
+Finished technology mapping (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 164MB peak: 164MB)
+
+Pass		 CPU time		Worst Slack		Luts / Registers
+------------------------------------------------------------
+   1		0h:00m:01s		     0.29ns		  29 /        26
+   2		0h:00m:01s		     0.29ns		  29 /        26
+
+Finished technology timing optimizations and critical path resynthesis (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 165MB peak: 165MB)
+
+
+Finished restoring hierarchy (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 165MB peak: 165MB)
+
+
+Start Writing Netlists (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 137MB peak: 165MB)
+
+Writing Analyst data base C:\Users\ubu\my_designs\led_ice40up_bb\impl_1\synwork\led_ice40up_bb_impl_1_m.srm
+
+Finished Writing Netlist Databases (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 165MB peak: 165MB)
+
+Writing Verilog Simulation files
+
+Writing scf file... (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:02s; Memory used current: 166MB peak: 166MB)
+
+@N: BW103 |The default time unit for the Synopsys Constraint File (SDC or FDC) is 1ns.
+@N: BW107 |Synopsys Constraint File capacitance units using default value of 1pF 
+
+Finished Writing Verilog Simulation files (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:00m:02s; Memory used current: 166MB peak: 166MB)
+
+
+Start final timing analysis (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:00m:02s; Memory used current: 166MB peak: 166MB)
+
+@W: MT420 |Found inferred clock Counter|clk with period 5.00ns. Please declare a user-defined clock on port clk.
+
+
+##### START OF TIMING REPORT #####[
+# Timing report written on Wed Apr 28 16:35:38 2021
+#
+
+
+Top view:               Counter
+Requested Frequency:    200.0 MHz
+Wire load mode:         top
+Paths requested:        5
+Constraint File(s):    
+@N: MT320 |This timing report is an estimate of place and route data. For final timing results, use the FPGA vendor place and route report.
+
+@N: MT322 |Clock constraints include only register-to-register paths associated with each individual clock.
+
+
+
+Performance Summary
+*******************
+
+
+Worst slack in design: -1.952
+
+                   Requested     Estimated     Requested     Estimated                Clock        Clock              
+Starting Clock     Frequency     Frequency     Period        Period        Slack      Type         Group              
+----------------------------------------------------------------------------------------------------------------------
+Counter|clk        200.0 MHz     NA            5.000         NA            NA         inferred     Inferred_clkgroup_0
+System             200.0 MHz     143.8 MHz     5.000         6.952         -1.952     system       system_clkgroup    
+======================================================================================================================
+Estimated period and frequency reported as NA means no slack depends directly on the clock waveform
+
+
+
+
+
+Clock Relationships
+*******************
+
+Clocks            |    rise  to  rise    |    fall  to  fall   |    rise  to  fall   |    fall  to  rise 
+---------------------------------------------------------------------------------------------------------
+Starting  Ending  |  constraint  slack   |  constraint  slack  |  constraint  slack  |  constraint  slack
+---------------------------------------------------------------------------------------------------------
+System    System  |  5.000       -1.952  |  No paths    -      |  No paths    -      |  No paths    -    
+=========================================================================================================
+ Note: 'No paths' indicates there are no paths in the design for that pair of clock edges.
+       'Diff grp' indicates that paths exist but the starting clock and ending clock are in different clock groups.
+
+
+
+Interface Information 
+*********************
+
+No IO constraint found
+
+
+
+====================================
+Detailed Report for Clock: System
+====================================
+
+
+
+Starting Points with Worst Slack
+********************************
+
+                 Starting                                           Arrival           
+Instance         Reference     Type        Pin     Net              Time        Slack 
+                 Clock                                                                
+--------------------------------------------------------------------------------------
+en_ibuf          System        IB          O       en_c             0.000       -1.952
+scounter[0]      System        FD1P3DZ     Q       scounter[0]      0.796       -1.540
+scounter[23]     System        FD1P3DZ     Q       scounter[23]     0.796       -1.396
+scounter[24]     System        FD1P3DZ     Q       scounter[24]     0.796       -1.396
+scounter[25]     System        FD1P3DZ     Q       scounter[25]     0.796       -1.396
+scounter[1]      System        FD1P3DZ     Q       scounter[1]      0.796       -1.248
+scounter[2]      System        FD1P3DZ     Q       scounter[2]      0.796       -1.248
+scounter[3]      System        FD1P3DZ     Q       scounter[3]      0.796       -0.956
+scounter[4]      System        FD1P3DZ     Q       scounter[4]      0.796       -0.956
+scounter[5]      System        FD1P3DZ     Q       scounter[5]      0.796       -0.664
+======================================================================================
+
+
+Ending Points with Worst Slack
+******************************
+
+                Starting                                   Required           
+Instance        Reference     Type        Pin     Net      Time         Slack 
+                Clock                                                         
+------------------------------------------------------------------------------
+scounter[0]     System        FD1P3DZ     SP      en_c     4.845        -1.952
+scounter[1]     System        FD1P3DZ     SP      en_c     4.845        -1.952
+scounter[2]     System        FD1P3DZ     SP      en_c     4.845        -1.952
+scounter[3]     System        FD1P3DZ     SP      en_c     4.845        -1.952
+scounter[4]     System        FD1P3DZ     SP      en_c     4.845        -1.952
+scounter[5]     System        FD1P3DZ     SP      en_c     4.845        -1.952
+scounter[6]     System        FD1P3DZ     SP      en_c     4.845        -1.952
+scounter[7]     System        FD1P3DZ     SP      en_c     4.845        -1.952
+scounter[8]     System        FD1P3DZ     SP      en_c     4.845        -1.952
+scounter[9]     System        FD1P3DZ     SP      en_c     4.845        -1.952
+==============================================================================
+
+
+
+Worst Path Information
+***********************
+
+
+Path information for path number 1: 
+      Requested Period:                      5.000
+    - Setup time:                            0.155
+    + Clock delay at ending point:           0.000 (ideal)
+    + Estimated clock delay at ending point: 0.000
+    = Required time:                         4.845
+
+    - Propagation time:                      6.797
+    - Clock delay at starting point:         0.000 (ideal)
+    - Estimated clock delay at start point:  -0.000
+    = Slack (critical) :                     -1.952
+
+    Number of logic level(s):                0
+    Starting point:                          en_ibuf / O
+    Ending point:                            scounter[0] / SP
+    The start point is clocked by            System [rising]
+    The end   point is clocked by            System [rising] on pin CK
+
+Instance / Net                 Pin      Pin               Arrival     No. of    
+Name               Type        Name     Dir     Delay     Time        Fan Out(s)
+--------------------------------------------------------------------------------
+en_ibuf            IB          O        Out     0.000     0.000 r     -         
+en_c               Net         -        -       6.797     -           26        
+scounter[0]        FD1P3DZ     SP       In      -         6.797 r     -         
+================================================================================
+Total path delay (propagation time + setup) of 6.952 is 0.155(2.2%) logic and 6.797(97.8%) route.
+Path delay compensated for clock skew. Clock skew is added to clock-to-out value, and is subtracted from setup time value
+
+
+Path information for path number 2: 
+      Requested Period:                      5.000
+    - Setup time:                            0.155
+    + Clock delay at ending point:           0.000 (ideal)
+    + Estimated clock delay at ending point: 0.000
+    = Required time:                         4.845
+
+    - Propagation time:                      6.797
+    - Clock delay at starting point:         0.000 (ideal)
+    - Estimated clock delay at start point:  -0.000
+    = Slack (critical) :                     -1.952
+
+    Number of logic level(s):                0
+    Starting point:                          en_ibuf / O
+    Ending point:                            scounter[1] / SP
+    The start point is clocked by            System [rising]
+    The end   point is clocked by            System [rising] on pin CK
+
+Instance / Net                 Pin      Pin               Arrival     No. of    
+Name               Type        Name     Dir     Delay     Time        Fan Out(s)
+--------------------------------------------------------------------------------
+en_ibuf            IB          O        Out     0.000     0.000 r     -         
+en_c               Net         -        -       6.797     -           26        
+scounter[1]        FD1P3DZ     SP       In      -         6.797 r     -         
+================================================================================
+Total path delay (propagation time + setup) of 6.952 is 0.155(2.2%) logic and 6.797(97.8%) route.
+Path delay compensated for clock skew. Clock skew is added to clock-to-out value, and is subtracted from setup time value
+
+
+Path information for path number 3: 
+      Requested Period:                      5.000
+    - Setup time:                            0.155
+    + Clock delay at ending point:           0.000 (ideal)
+    + Estimated clock delay at ending point: 0.000
+    = Required time:                         4.845
+
+    - Propagation time:                      6.797
+    - Clock delay at starting point:         0.000 (ideal)
+    - Estimated clock delay at start point:  -0.000
+    = Slack (critical) :                     -1.952
+
+    Number of logic level(s):                0
+    Starting point:                          en_ibuf / O
+    Ending point:                            scounter[2] / SP
+    The start point is clocked by            System [rising]
+    The end   point is clocked by            System [rising] on pin CK
+
+Instance / Net                 Pin      Pin               Arrival     No. of    
+Name               Type        Name     Dir     Delay     Time        Fan Out(s)
+--------------------------------------------------------------------------------
+en_ibuf            IB          O        Out     0.000     0.000 r     -         
+en_c               Net         -        -       6.797     -           26        
+scounter[2]        FD1P3DZ     SP       In      -         6.797 r     -         
+================================================================================
+Total path delay (propagation time + setup) of 6.952 is 0.155(2.2%) logic and 6.797(97.8%) route.
+Path delay compensated for clock skew. Clock skew is added to clock-to-out value, and is subtracted from setup time value
+
+
+Path information for path number 4: 
+      Requested Period:                      5.000
+    - Setup time:                            0.155
+    + Clock delay at ending point:           0.000 (ideal)
+    + Estimated clock delay at ending point: 0.000
+    = Required time:                         4.845
+
+    - Propagation time:                      6.797
+    - Clock delay at starting point:         0.000 (ideal)
+    - Estimated clock delay at start point:  -0.000
+    = Slack (critical) :                     -1.952
+
+    Number of logic level(s):                0
+    Starting point:                          en_ibuf / O
+    Ending point:                            scounter[3] / SP
+    The start point is clocked by            System [rising]
+    The end   point is clocked by            System [rising] on pin CK
+
+Instance / Net                 Pin      Pin               Arrival     No. of    
+Name               Type        Name     Dir     Delay     Time        Fan Out(s)
+--------------------------------------------------------------------------------
+en_ibuf            IB          O        Out     0.000     0.000 r     -         
+en_c               Net         -        -       6.797     -           26        
+scounter[3]        FD1P3DZ     SP       In      -         6.797 r     -         
+================================================================================
+Total path delay (propagation time + setup) of 6.952 is 0.155(2.2%) logic and 6.797(97.8%) route.
+Path delay compensated for clock skew. Clock skew is added to clock-to-out value, and is subtracted from setup time value
+
+
+Path information for path number 5: 
+      Requested Period:                      5.000
+    - Setup time:                            0.155
+    + Clock delay at ending point:           0.000 (ideal)
+    + Estimated clock delay at ending point: 0.000
+    = Required time:                         4.845
+
+    - Propagation time:                      6.797
+    - Clock delay at starting point:         0.000 (ideal)
+    - Estimated clock delay at start point:  -0.000
+    = Slack (critical) :                     -1.952
+
+    Number of logic level(s):                0
+    Starting point:                          en_ibuf / O
+    Ending point:                            scounter[4] / SP
+    The start point is clocked by            System [rising]
+    The end   point is clocked by            System [rising] on pin CK
+
+Instance / Net                 Pin      Pin               Arrival     No. of    
+Name               Type        Name     Dir     Delay     Time        Fan Out(s)
+--------------------------------------------------------------------------------
+en_ibuf            IB          O        Out     0.000     0.000 r     -         
+en_c               Net         -        -       6.797     -           26        
+scounter[4]        FD1P3DZ     SP       In      -         6.797 r     -         
+================================================================================
+Total path delay (propagation time + setup) of 6.952 is 0.155(2.2%) logic and 6.797(97.8%) route.
+Path delay compensated for clock skew. Clock skew is added to clock-to-out value, and is subtracted from setup time value
+
+
+
+##### END OF TIMING REPORT #####]
+
+Timing exceptions that could not be applied
+
+Finished final timing analysis (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:00m:02s; Memory used current: 166MB peak: 166MB)
+
+
+Finished timing report (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:00m:02s; Memory used current: 166MB peak: 166MB)
+
+---------------------------------------
+Resource Usage Report for Counter 
+
+Mapping to part: ice40up5kuwg30i-6
+Cell usage:
+CCU2_B          14 uses
+FD1P3DZ         26 uses
+LUT4            4 uses
+
+I/O ports: 6
+I/O primitives: 6
+IB             3 uses
+OB             3 uses
+
+I/O Register bits:                  0
+Register bits not including I/Os:   26 of 5280 (0%)
+Total load per clock:
+   Counter|clk: 1
+
+@S |Mapping Summary:
+Total  LUTs: 4 (0%)
+
+Distribution of All Consumed LUTs = LUT4 
+Distribution of All Consumed LUTs 4 = 4 
+
+Mapper successful!
+
+At Mapper Exit (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:00m:02s; Memory used current: 57MB peak: 166MB)
+
+Process took 0h:00m:02s realtime, 0h:00m:02s cputime
+# Wed Apr 28 16:35:38 2021
+
+###########################################################]

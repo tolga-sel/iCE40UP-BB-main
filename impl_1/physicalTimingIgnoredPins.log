@@ -1,0 +1,7 @@
+SLICE/D1 input SLICE_0is connected to a constant net
+SLICE/CIN1 input SLICE_0is connected to a constant net
+     ** SLICE_0/COUT0 is driving a pin on an incomplete path
+SLICE/CIN0 input SLICE_0 is on an incomplete path
+SLICE/F0 VCC  SLICE_18
+     *** SLICE_13/C0 is driven by constant or a pin on an incomplete path
+     *** SLICE_13/B0 is driven by constant or a pin on an incomplete path

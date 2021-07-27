@@ -1,0 +1,37 @@
+#defaultlanguage:vhdl
+#OPTIONS:"|-mixedhdl|-top|Counter|-layerid|0|-orig_srs|C:\\Users\\ubu\\my_designs\\led_ice40up_bb\\impl_1\\synwork\\led_ice40up_bb_impl_1_comp.srs|-prodtype|synplify_pro|-primux|-fixsmult|-infer_seqShift|-ice|-sdff_counter|-nram|-divnmod|-nostructver|-encrypt|-pro|-lite|-ui|-fid2|-ram|-sharing|on|-ll|2000|-autosm|-ignore_undefined_lib|-lib|pmi|-lib|work|-lib|work"
+#CUR:"C:\\lscc\\radiant\\2.2\\synpbase\\bin64\\c_vhdl.exe":1614717246
+#CUR:"C:\\lscc\\radiant\\2.2\\synpbase\\lib\\vhd\\location.map":1614843966
+#CUR:"C:\\lscc\\radiant\\2.2\\synpbase\\lib\\vhd\\std.vhd":1614717710
+#CUR:"C:\\lscc\\radiant\\2.2\\synpbase\\lib\\vhd\\snps_haps_pkg.vhd":1614717710
+#CUR:"C:\\lscc\\radiant\\2.2\\synpbase\\lib\\vhd\\std1164.vhd":1614717710
+#CUR:"C:\\lscc\\radiant\\2.2\\synpbase\\lib\\vhd\\numeric.vhd":1614717710
+#CUR:"C:\\lscc\\radiant\\2.2\\synpbase\\lib\\vhd\\umr_capim.vhd":1614717710
+#CUR:"C:\\lscc\\radiant\\2.2\\synpbase\\lib\\vhd\\arith.vhd":1614717710
+#CUR:"C:\\lscc\\radiant\\2.2\\synpbase\\lib\\vhd\\unsigned.vhd":1614717710
+#CUR:"C:\\lscc\\radiant\\2.2\\synpbase\\lib\\vhd\\hyperents.vhd":1614717710
+#CUR:"C:\\lscc\\radiant\\2.2\\ip\\pmi\\pmi_iCE40UP.vhd":1589165891
+#CUR:"C:\\Users\\ubu\\my_designs\\led_ice40up_bb\\source\\impl_1\\counter_top.vhd":1619620522
+#CUR:"C:\\lscc\\radiant\\2.2\\cae_library\\synthesis\\vhdl\\iCE40UP.vhd":1534890897
+0 "C:\lscc\radiant\2.2\ip\pmi\pmi_iCE40UP.vhd" vhdl
+1 "C:\Users\ubu\my_designs\led_ice40up_bb\source\impl_1\counter_top.vhd" vhdl
+2 "C:\lscc\radiant\2.2\cae_library\synthesis\vhdl\iCE40UP.vhd" vhdl
+
+# Dependency Lists (Uses list)
+0 -1
+1 -1
+2 -1
+
+# Dependency Lists (Users Of)
+0 -1
+1 -1
+2 -1
+
+# Design Unit to File Association
+arch work counter behavioral 1
+module work counter 1
+
+# Unbound Instances to File Association
+
+
+# Configuration files used

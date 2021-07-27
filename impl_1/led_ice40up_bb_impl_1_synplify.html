@@ -1,0 +1,940 @@
+<HTML>
+<HEAD>
+<TITLE>Synthesis Report</TITLE>
+<link href="file:///C:/lscc/radiant/2.2/data/theme/css/light/report.css" rel="stylesheet" type="text/css" media="screen"/>
+<link href="file:///C:/lscc/radiant/2.2/data/theme/css/print/report.css" rel="stylesheet" type="text/css" media="print"/>
+<style type="text/css">
+#toc {
+  position: fixed;
+  right: 2px;
+  top: 2px;
+  padding: 2px 5px 2px 5px;
+  background-color:rgba(210,210,210,0.1);
+  border-style: solid;
+  border-color: rgba(192,192,192,0.8);
+  border-width:1px;
+}
+#toc_list {
+  display: none;
+  }
+</style>
+
+<script type="text/javascript">
+<!--
+function showTocList() {
+var a = document.getElementById("toc_list");
+a.style.display = "block";
+}
+
+function hideTocList() {
+var a = document.getElementById("toc_list");
+if (a)
+    a.style.display = "none";
+}
+
+//-->
+</script>
+
+</HEAD>
+
+<BODY>
+
+<DIV id="content" onclick="hideTocList()"><PRE>
+<A name="Syn"></A><B><U><big>Synthesis Report</big></U></B>
+#Build: Synplify Pro (R) Q-2020.03LR-SP1-1, Build 245R, Mar  2 2021
+#install: C:\lscc\radiant\2.2\synpbase
+#OS: Windows 8 6.2
+#Hostname: DESKTOP-3K3974S
+
+# Wed Apr 28 16:35:30 2021
+
+#Implementation: impl_1
+
+
+Copyright (C) 1994-2020 Synopsys, Inc.
+This Synopsys software and all associated documentation are proprietary to Synopsys, Inc.
+and may only be used pursuant to the terms and conditions of a written license agreement
+with Synopsys, Inc. All other use, reproduction, modification, or distribution of the
+Synopsys software or the associated documentation is strictly prohibited.
+Tool: Synplify Pro (R)
+Build: Q-2020.03LR-SP1-1
+Install: C:\lscc\radiant\2.2\synpbase
+OS: Windows 6.2
+
+Hostname: DESKTOP-3K3974S
+
+Implementation : impl_1
+Synopsys HDL Compiler, Version comp202003synp2, Build 246R, Built Mar  2 2021 09:27:53, @
+
+@N|Running in 64-bit mode
+###########################################################[
+
+Copyright (C) 1994-2020 Synopsys, Inc.
+This Synopsys software and all associated documentation are proprietary to Synopsys, Inc.
+and may only be used pursuant to the terms and conditions of a written license agreement
+with Synopsys, Inc. All other use, reproduction, modification, or distribution of the
+Synopsys software or the associated documentation is strictly prohibited.
+Tool: Synplify Pro (R)
+Build: Q-2020.03LR-SP1-1
+Install: C:\lscc\radiant\2.2\synpbase
+OS: Windows 6.2
+
+Hostname: DESKTOP-3K3974S
+
+Implementation : impl_1
+Synopsys VHDL Compiler, Version comp202003synp2, Build 246R, Built Mar  2 2021 09:27:53, @
+
+@N|Running in 64-bit mode
+@N:"C:\Users\ubu\my_designs\led_ice40up_bb\source\impl_1\counter_top.vhd":8:7:8:13|Top entity is set to Counter.
+VHDL syntax check successful!
+
+At c_vhdl Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 87MB peak: 88MB)
+
+
+Process completed successfully.
+# Wed Apr 28 16:35:31 2021
+
+###########################################################]
+###########################################################[
+
+Copyright (C) 1994-2020 Synopsys, Inc.
+This Synopsys software and all associated documentation are proprietary to Synopsys, Inc.
+and may only be used pursuant to the terms and conditions of a written license agreement
+with Synopsys, Inc. All other use, reproduction, modification, or distribution of the
+Synopsys software or the associated documentation is strictly prohibited.
+Tool: Synplify Pro (R)
+Build: Q-2020.03LR-SP1-1
+Install: C:\lscc\radiant\2.2\synpbase
+OS: Windows 6.2
+
+Hostname: DESKTOP-3K3974S
+
+Implementation : impl_1
+Synopsys Verilog Compiler, Version comp202003synp2, Build 246R, Built Mar  2 2021 09:27:53, @
+
+@N|Running in 64-bit mode
+@I::"C:\lscc\radiant\2.2\synpbase\lib\generic\ice40up.v" (library work)
+@I::"C:\lscc\radiant\2.2\synpbase\lib\vlog\hypermods.v" (library __hyper__lib__)
+@I::"C:\lscc\radiant\2.2\synpbase\lib\vlog\umr_capim.v" (library snps_haps)
+@I::"C:\lscc\radiant\2.2\synpbase\lib\vlog\scemi_objects.v" (library snps_haps)
+@I::"C:\lscc\radiant\2.2\synpbase\lib\vlog\scemi_pipes.svh" (library snps_haps)
+@I::"C:\lscc\radiant\2.2\ip\pmi\pmi_iCE40UP.v" (library work)
+@I:"C:\lscc\radiant\2.2\ip\pmi\pmi_iCE40UP.v":"C:\lscc\radiant\2.2\ip\pmi\pmi_addsub.v" (library work)
+@I:"C:\lscc\radiant\2.2\ip\pmi\pmi_addsub.v":"C:\lscc\radiant\2.2\ip\pmi\../common/adder_subtractor/rtl\lscc_add_sub.v" (library work)
+@N: CG334 :"C:\lscc\radiant\2.2\ip\pmi\../common/adder_subtractor/rtl\lscc_add_sub.v":313:13:313:25|Read directive translate_off.
+@N: CG333 :"C:\lscc\radiant\2.2\ip\pmi\../common/adder_subtractor/rtl\lscc_add_sub.v":333:13:333:24|Read directive translate_on.
+@I:"C:\lscc\radiant\2.2\ip\pmi\pmi_iCE40UP.v":"C:\lscc\radiant\2.2\ip\pmi\pmi_add.v" (library work)
+@I:"C:\lscc\radiant\2.2\ip\pmi\pmi_add.v":"C:\lscc\radiant\2.2\ip\pmi\../common/adder/rtl\lscc_adder.v" (library work)
+@I:"C:\lscc\radiant\2.2\ip\pmi\pmi_iCE40UP.v":"C:\lscc\radiant\2.2\ip\pmi\pmi_complex_mult.v" (library work)
+@I:"C:\lscc\radiant\2.2\ip\pmi\pmi_complex_mult.v":"C:\lscc\radiant\2.2\ip\pmi\../common/complex_mult/rtl\lscc_complex_mult.v" (library work)
+@N: CG334 :"C:\lscc\radiant\2.2\ip\pmi\pmi_complex_mult.v":92:11:92:23|Read directive translate_off.
+@N: CG333 :"C:\lscc\radiant\2.2\ip\pmi\pmi_complex_mult.v":101:11:101:22|Read directive translate_on.
+@I:"C:\lscc\radiant\2.2\ip\pmi\pmi_iCE40UP.v":"C:\lscc\radiant\2.2\ip\pmi\pmi_counter.v" (library work)
+@I:"C:\lscc\radiant\2.2\ip\pmi\pmi_counter.v":"C:\lscc\radiant\2.2\ip\pmi\../common/counter/rtl\lscc_cntr.v" (library work)
+@N: CG334 :"C:\lscc\radiant\2.2\ip\pmi\../common/counter/rtl\lscc_cntr.v":129:13:129:25|Read directive translate_off.
+@N: CG333 :"C:\lscc\radiant\2.2\ip\pmi\../common/counter/rtl\lscc_cntr.v":143:13:143:24|Read directive translate_on.
+@I:"C:\lscc\radiant\2.2\ip\pmi\pmi_iCE40UP.v":"C:\lscc\radiant\2.2\ip\pmi\pmi_fifo.v" (library work)
+@I:"C:\lscc\radiant\2.2\ip\pmi\pmi_fifo.v":"C:\lscc\radiant\2.2\ip\pmi\../common/fifo/rtl\lscc_fifo.v" (library work)
+@N: CG334 :"C:\lscc\radiant\2.2\ip\pmi\../common/fifo/rtl\lscc_fifo.v":2596:17:2596:29|Read directive translate_off.
+@N: CG333 :"C:\lscc\radiant\2.2\ip\pmi\../common/fifo/rtl\lscc_fifo.v":2603:17:2603:28|Read directive translate_on.
+@N: CG334 :"C:\lscc\radiant\2.2\ip\pmi\../common/fifo/rtl\lscc_fifo.v":2646:17:2646:29|Read directive translate_off.
+@N: CG333 :"C:\lscc\radiant\2.2\ip\pmi\../common/fifo/rtl\lscc_fifo.v":2653:17:2653:28|Read directive translate_on.
+@N: CG334 :"C:\lscc\radiant\2.2\ip\pmi\../common/fifo/rtl\lscc_fifo.v":2696:17:2696:29|Read directive translate_off.
+@N: CG333 :"C:\lscc\radiant\2.2\ip\pmi\../common/fifo/rtl\lscc_fifo.v":2703:17:2703:28|Read directive translate_on.
+@I:"C:\lscc\radiant\2.2\ip\pmi\pmi_iCE40UP.v":"C:\lscc\radiant\2.2\ip\pmi\pmi_fifo_dc.v" (library work)
+@I:"C:\lscc\radiant\2.2\ip\pmi\pmi_fifo_dc.v":"C:\lscc\radiant\2.2\ip\pmi\../common/fifo_dc/rtl\lscc_fifo_dc.v" (library work)
+@N: CG334 :"C:\lscc\radiant\2.2\ip\pmi\../common/fifo_dc/rtl\lscc_fifo_dc.v":2392:17:2392:29|Read directive translate_off.
+@N: CG333 :"C:\lscc\radiant\2.2\ip\pmi\../common/fifo_dc/rtl\lscc_fifo_dc.v":2405:17:2405:28|Read directive translate_on.
+@N: CG334 :"C:\lscc\radiant\2.2\ip\pmi\../common/fifo_dc/rtl\lscc_fifo_dc.v":2579:21:2579:33|Read directive translate_off.
+@N: CG333 :"C:\lscc\radiant\2.2\ip\pmi\../common/fifo_dc/rtl\lscc_fifo_dc.v":2583:21:2583:32|Read directive translate_on.
+@N: CG334 :"C:\lscc\radiant\2.2\ip\pmi\../common/fifo_dc/rtl\lscc_fifo_dc.v":2784:21:2784:33|Read directive translate_off.
+@N: CG333 :"C:\lscc\radiant\2.2\ip\pmi\../common/fifo_dc/rtl\lscc_fifo_dc.v":2788:21:2788:32|Read directive translate_on.
+@N: CG334 :"C:\lscc\radiant\2.2\ip\pmi\../common/fifo_dc/rtl\lscc_fifo_dc.v":2824:21:2824:33|Read directive translate_off.
+@N: CG333 :"C:\lscc\radiant\2.2\ip\pmi\../common/fifo_dc/rtl\lscc_fifo_dc.v":2828:21:2828:32|Read directive translate_on.
+@N: CG334 :"C:\lscc\radiant\2.2\ip\pmi\../common/fifo_dc/rtl\lscc_fifo_dc.v":3335:33:3335:45|Read directive translate_off.
+@N: CG333 :"C:\lscc\radiant\2.2\ip\pmi\../common/fifo_dc/rtl\lscc_fifo_dc.v":3339:33:3339:44|Read directive translate_on.
+@N: CG334 :"C:\lscc\radiant\2.2\ip\pmi\../common/fifo_dc/rtl\lscc_fifo_dc.v":3510:25:3510:37|Read directive translate_off.
+@N: CG333 :"C:\lscc\radiant\2.2\ip\pmi\../common/fifo_dc/rtl\lscc_fifo_dc.v":3514:25:3514:36|Read directive translate_on.
+@N: CG334 :"C:\lscc\radiant\2.2\ip\pmi\../common/fifo_dc/rtl\lscc_fifo_dc.v":3545:29:3545:41|Read directive translate_off.
+@N: CG333 :"C:\lscc\radiant\2.2\ip\pmi\../common/fifo_dc/rtl\lscc_fifo_dc.v":3549:29:3549:40|Read directive translate_on.
+@N: CG334 :"C:\lscc\radiant\2.2\ip\pmi\../common/fifo_dc/rtl\lscc_fifo_dc.v":3963:37:3963:49|Read directive translate_off.
+@N: CG333 :"C:\lscc\radiant\2.2\ip\pmi\../common/fifo_dc/rtl\lscc_fifo_dc.v":3967:37:3967:48|Read directive translate_on.
+@N: CG334 :"C:\lscc\radiant\2.2\ip\pmi\../common/fifo_dc/rtl\lscc_fifo_dc.v":4141:29:4141:41|Read directive translate_off.
+@N: CG333 :"C:\lscc\radiant\2.2\ip\pmi\../common/fifo_dc/rtl\lscc_fifo_dc.v":4145:29:4145:40|Read directive translate_on.
+@N: CG334 :"C:\lscc\radiant\2.2\ip\pmi\../common/fifo_dc/rtl\lscc_fifo_dc.v":4171:33:4171:45|Read directive translate_off.
+@N: CG333 :"C:\lscc\radiant\2.2\ip\pmi\../common/fifo_dc/rtl\lscc_fifo_dc.v":4175:33:4175:44|Read directive translate_on.
+@N: CG334 :"C:\lscc\radiant\2.2\ip\pmi\../common/fifo_dc/rtl\lscc_fifo_dc.v":4535:41:4535:53|Read directive translate_off.
+@N: CG333 :"C:\lscc\radiant\2.2\ip\pmi\../common/fifo_dc/rtl\lscc_fifo_dc.v":4539:41:4539:52|Read directive translate_on.
+@N: CG334 :"C:\lscc\radiant\2.2\ip\pmi\../common/fifo_dc/rtl\lscc_fifo_dc.v":4710:33:4710:45|Read directive translate_off.
+@N: CG333 :"C:\lscc\radiant\2.2\ip\pmi\../common/fifo_dc/rtl\lscc_fifo_dc.v":4714:33:4714:44|Read directive translate_on.
+@N: CG334 :"C:\lscc\radiant\2.2\ip\pmi\../common/fifo_dc/rtl\lscc_fifo_dc.v":4743:37:4743:49|Read directive translate_off.
+@N: CG333 :"C:\lscc\radiant\2.2\ip\pmi\../common/fifo_dc/rtl\lscc_fifo_dc.v":4747:37:4747:48|Read directive translate_on.
+@N: CG334 :"C:\lscc\radiant\2.2\ip\pmi\../common/fifo_dc/rtl\lscc_fifo_dc.v":6263:25:6263:37|Read directive translate_off.
+@N: CG333 :"C:\lscc\radiant\2.2\ip\pmi\../common/fifo_dc/rtl\lscc_fifo_dc.v":6267:25:6267:36|Read directive translate_on.
+@I:"C:\lscc\radiant\2.2\ip\pmi\pmi_iCE40UP.v":"C:\lscc\radiant\2.2\ip\pmi\pmi_mac.v" (library work)
+@I:"C:\lscc\radiant\2.2\ip\pmi\pmi_mac.v":"C:\lscc\radiant\2.2\ip\pmi\../common/mult_accumulate/rtl\lscc_mult_accumulate.v" (library work)
+@N: CG334 :"C:\lscc\radiant\2.2\ip\pmi\pmi_mac.v":94:11:94:23|Read directive translate_off.
+@N: CG333 :"C:\lscc\radiant\2.2\ip\pmi\pmi_mac.v":109:11:109:22|Read directive translate_on.
+@I:"C:\lscc\radiant\2.2\ip\pmi\pmi_iCE40UP.v":"C:\lscc\radiant\2.2\ip\pmi\pmi_multaddsubsum.v" (library work)
+@I:"C:\lscc\radiant\2.2\ip\pmi\pmi_multaddsubsum.v":"C:\lscc\radiant\2.2\ip\pmi\../common/mult_add_sub_sum/rtl\lscc_mult_add_sub_sum.v" (library work)
+@N: CG334 :"C:\lscc\radiant\2.2\ip\pmi\../common/mult_add_sub_sum/rtl\lscc_mult_add_sub_sum.v":210:13:210:25|Read directive translate_off.
+@N: CG333 :"C:\lscc\radiant\2.2\ip\pmi\../common/mult_add_sub_sum/rtl\lscc_mult_add_sub_sum.v":227:13:227:24|Read directive translate_on.
+@N: CG334 :"C:\lscc\radiant\2.2\ip\pmi\pmi_multaddsubsum.v":84:11:84:23|Read directive translate_off.
+@N: CG333 :"C:\lscc\radiant\2.2\ip\pmi\pmi_multaddsubsum.v":93:11:93:22|Read directive translate_on.
+@I:"C:\lscc\radiant\2.2\ip\pmi\pmi_iCE40UP.v":"C:\lscc\radiant\2.2\ip\pmi\pmi_multaddsub.v" (library work)
+@I:"C:\lscc\radiant\2.2\ip\pmi\pmi_multaddsub.v":"C:\lscc\radiant\2.2\ip\pmi\../common/mult_add_sub/rtl\lscc_mult_add_sub.v" (library work)
+@N: CG334 :"C:\lscc\radiant\2.2\ip\pmi\pmi_multaddsub.v":91:11:91:23|Read directive translate_off.
+@N: CG333 :"C:\lscc\radiant\2.2\ip\pmi\pmi_multaddsub.v":100:11:100:22|Read directive translate_on.
+@I:"C:\lscc\radiant\2.2\ip\pmi\pmi_iCE40UP.v":"C:\lscc\radiant\2.2\ip\pmi\pmi_mult.v" (library work)
+@I:"C:\lscc\radiant\2.2\ip\pmi\pmi_mult.v":"C:\lscc\radiant\2.2\ip\pmi\../common/multiplier/rtl\lscc_multiplier.v" (library work)
+@N: CG334 :"C:\lscc\radiant\2.2\ip\pmi\pmi_mult.v":87:11:87:23|Read directive translate_off.
+@N: CG333 :"C:\lscc\radiant\2.2\ip\pmi\pmi_mult.v":96:11:96:22|Read directive translate_on.
+@I:"C:\lscc\radiant\2.2\ip\pmi\pmi_iCE40UP.v":"C:\lscc\radiant\2.2\ip\pmi\pmi_ram_dp.v" (library work)
+@I:"C:\lscc\radiant\2.2\ip\pmi\pmi_ram_dp.v":"C:\lscc\radiant\2.2\ip\pmi\../common/ram_dp/rtl\lscc_ram_dp.v" (library work)
+@N: CG334 :"C:\lscc\radiant\2.2\ip\pmi\../common/ram_dp/rtl\lscc_ram_dp.v":815:25:815:37|Read directive translate_off.
+@N: CG333 :"C:\lscc\radiant\2.2\ip\pmi\../common/ram_dp/rtl\lscc_ram_dp.v":819:25:819:36|Read directive translate_on.
+@N: CG334 :"C:\lscc\radiant\2.2\ip\pmi\../common/ram_dp/rtl\lscc_ram_dp.v":850:29:850:41|Read directive translate_off.
+@N: CG333 :"C:\lscc\radiant\2.2\ip\pmi\../common/ram_dp/rtl\lscc_ram_dp.v":854:29:854:40|Read directive translate_on.
+@I:"C:\lscc\radiant\2.2\ip\pmi\pmi_iCE40UP.v":"C:\lscc\radiant\2.2\ip\pmi\pmi_ram_dq.v" (library work)
+@I:"C:\lscc\radiant\2.2\ip\pmi\pmi_ram_dq.v":"C:\lscc\radiant\2.2\ip\pmi\../common/ram_dq/rtl\lscc_ram_dq.v" (library work)
+@N: CG334 :"C:\lscc\radiant\2.2\ip\pmi\../common/ram_dq/rtl\lscc_ram_dq.v":1047:25:1047:37|Read directive translate_off.
+@N: CG333 :"C:\lscc\radiant\2.2\ip\pmi\../common/ram_dq/rtl\lscc_ram_dq.v":1053:25:1053:36|Read directive translate_on.
+@I:"C:\lscc\radiant\2.2\ip\pmi\pmi_iCE40UP.v":"C:\lscc\radiant\2.2\ip\pmi\pmi_rom.v" (library work)
+@I:"C:\lscc\radiant\2.2\ip\pmi\pmi_rom.v":"C:\lscc\radiant\2.2\ip\pmi\../common/rom/rtl\lscc_rom.v" (library work)
+@N: CG334 :"C:\lscc\radiant\2.2\ip\pmi\../common/rom/rtl\lscc_rom.v":666:25:666:37|Read directive translate_off.
+@N: CG333 :"C:\lscc\radiant\2.2\ip\pmi\../common/rom/rtl\lscc_rom.v":672:25:672:36|Read directive translate_on.
+@I:"C:\lscc\radiant\2.2\ip\pmi\pmi_iCE40UP.v":"C:\lscc\radiant\2.2\ip\pmi\pmi_sub.v" (library work)
+@I:"C:\lscc\radiant\2.2\ip\pmi\pmi_sub.v":"C:\lscc\radiant\2.2\ip\pmi\../common/subtractor/rtl\lscc_subtractor.v" (library work)
+@I:"C:\lscc\radiant\2.2\ip\pmi\pmi_iCE40UP.v":"C:\lscc\radiant\2.2\ip\pmi\pmi_ram_dp_be.v" (library work)
+@N: CG334 :"C:\lscc\radiant\2.2\ip\pmi\pmi_ram_dp_be.v":145:11:145:23|Read directive translate_off.
+@N: CG333 :"C:\lscc\radiant\2.2\ip\pmi\pmi_ram_dp_be.v":154:11:154:22|Read directive translate_on.
+@I:"C:\lscc\radiant\2.2\ip\pmi\pmi_iCE40UP.v":"C:\lscc\radiant\2.2\ip\pmi\pmi_ram_dq_be.v" (library work)
+@N: CG334 :"C:\lscc\radiant\2.2\ip\pmi\pmi_ram_dq_be.v":88:11:88:23|Read directive translate_off.
+@N: CG333 :"C:\lscc\radiant\2.2\ip\pmi\pmi_ram_dq_be.v":96:11:96:22|Read directive translate_on.
+@I:"C:\lscc\radiant\2.2\ip\pmi\pmi_iCE40UP.v":"C:\lscc\radiant\2.2\ip\pmi\pmi_dsp.v" (library work)
+Verilog syntax check successful!
+
+At c_ver Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 102MB peak: 102MB)
+
+
+Process completed successfully.
+# Wed Apr 28 16:35:32 2021
+
+###########################################################]
+###########################################################[
+@N:"C:\Users\ubu\my_designs\led_ice40up_bb\source\impl_1\counter_top.vhd":8:7:8:13|Top entity is set to Counter.
+VHDL syntax check successful!
+@N: CD630 :"C:\Users\ubu\my_designs\led_ice40up_bb\source\impl_1\counter_top.vhd":8:7:8:13|Synthesizing work.counter.behavioral.
+Post processing for work.counter.behavioral
+Running optimization stage 1 on Counter .......
+@W: CL271 :"C:\Users\ubu\my_designs\led_ice40up_bb\source\impl_1\counter_top.vhd":25:5:25:6|Pruning unused bits 31 to 26 of scounter_4(31 downto 0). If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
+Running optimization stage 2 on Counter .......
+
+For a summary of runtime and memory usage per design unit, please see file:
+==========================================================
+@L: C:\Users\ubu\my_designs\led_ice40up_bb\impl_1\synwork\layer0.rt.csv
+
+
+At c_vhdl Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 89MB peak: 90MB)
+
+
+Process completed successfully.
+# Wed Apr 28 16:35:32 2021
+
+###########################################################]
+###########################################################[
+
+Copyright (C) 1994-2020 Synopsys, Inc.
+This Synopsys software and all associated documentation are proprietary to Synopsys, Inc.
+and may only be used pursuant to the terms and conditions of a written license agreement
+with Synopsys, Inc. All other use, reproduction, modification, or distribution of the
+Synopsys software or the associated documentation is strictly prohibited.
+Tool: Synplify Pro (R)
+Build: Q-2020.03LR-SP1-1
+Install: C:\lscc\radiant\2.2\synpbase
+OS: Windows 6.2
+
+Hostname: DESKTOP-3K3974S
+
+Implementation : impl_1
+Synopsys Synopsys Netlist Linker, Version comp202003synp2, Build 246R, Built Mar  2 2021 09:27:53, @
+
+@N|Running in 64-bit mode
+
+At syn_nfilter Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 90MB peak: 90MB)
+
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+
+Process completed successfully.
+# Wed Apr 28 16:35:32 2021
+
+###########################################################]
+
+For a summary of runtime and memory usage for all design units, please see file:
+==========================================================
+@L: C:\Users\ubu\my_designs\led_ice40up_bb\impl_1\synwork\led_ice40up_bb_impl_1_comp.rt.csv
+
+@END
+
+At c_hdl Exit (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:00s; Memory used current: 29MB peak: 29MB)
+
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+
+Process completed successfully.
+# Wed Apr 28 16:35:32 2021
+
+###########################################################]
+###########################################################[
+
+Copyright (C) 1994-2020 Synopsys, Inc.
+This Synopsys software and all associated documentation are proprietary to Synopsys, Inc.
+and may only be used pursuant to the terms and conditions of a written license agreement
+with Synopsys, Inc. All other use, reproduction, modification, or distribution of the
+Synopsys software or the associated documentation is strictly prohibited.
+Tool: Synplify Pro (R)
+Build: Q-2020.03LR-SP1-1
+Install: C:\lscc\radiant\2.2\synpbase
+OS: Windows 6.2
+
+Hostname: DESKTOP-3K3974S
+
+Implementation : impl_1
+Synopsys Synopsys Netlist Linker, Version comp202003synp2, Build 246R, Built Mar  2 2021 09:27:53, @
+
+@N|Running in 64-bit mode
+
+At syn_nfilter Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 90MB peak: 90MB)
+
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+
+Process completed successfully.
+# Wed Apr 28 16:35:34 2021
+
+###########################################################]
+Premap Report
+
+# Wed Apr 28 16:35:34 2021
+
+
+Copyright (C) 1994-2020 Synopsys, Inc.
+This Synopsys software and all associated documentation are proprietary to Synopsys, Inc.
+and may only be used pursuant to the terms and conditions of a written license agreement
+with Synopsys, Inc. All other use, reproduction, modification, or distribution of the
+Synopsys software or the associated documentation is strictly prohibited.
+Tool: Synplify Pro (R)
+Build: Q-2020.03LR-SP1-1
+Install: C:\lscc\radiant\2.2\synpbase
+OS: Windows 6.2
+
+Hostname: DESKTOP-3K3974S
+
+Implementation : impl_1
+Synopsys Lattice Technology Pre-mapping, Version map202003lat, Build 176R, Built Mar  2 2021 10:26:35, @
+
+
+Mapper Startup Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 117MB peak: 117MB)
+
+@A: MF827 |No constraint file specified.
+@L: C:\Users\ubu\my_designs\led_ice40up_bb\impl_1\led_ice40up_bb_impl_1_scck.rpt 
+See clock summary report "C:\Users\ubu\my_designs\led_ice40up_bb\impl_1\led_ice40up_bb_impl_1_scck.rpt"
+@N: MF916 |Option synthesis_strategy=base is enabled. 
+@N: MF248 |Running in 64-bit mode.
+@N: MF667 |Clock conversion disabled. (Command "set_option -fix_gated_and_generated_clocks 0" in the project file.)
+
+Design Input Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 126MB peak: 129MB)
+
+
+Mapper Initialization Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 126MB peak: 129MB)
+
+
+Start loading timing files (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 126MB peak: 129MB)
+
+
+Finished loading timing files (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 127MB peak: 129MB)
+
+
+Starting clock optimization report phase (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 161MB peak: 161MB)
+
+
+Finished clock optimization report phase (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 161MB peak: 161MB)
+
+@N: FX1184 |Applying syn_allowed_resources blockrams=30 on top level netlist Counter 
+
+Finished netlist restructuring (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 161MB peak: 161MB)
+
+
+
+Clock Summary
+******************
+
+          Start           Requested     Requested     Clock        Clock                   Clock
+Level     Clock           Frequency     Period        Type         Group                   Load 
+------------------------------------------------------------------------------------------------
+0 -       Counter|clk     200.0 MHz     5.000         inferred     Inferred_clkgroup_0     26   
+================================================================================================
+
+
+
+Clock Load Summary
+***********************
+
+                Clock     Source        Clock Pin            Non-clock Pin     Non-clock Pin
+Clock           Load      Pin           Seq Example          Seq Example       Comb Example 
+--------------------------------------------------------------------------------------------
+Counter|clk     26        clk(port)     scounter[25:0].C     -                 -            
+============================================================================================
+
+@W: MT530 :"c:\users\ubu\my_designs\led_ice40up_bb\source\impl_1\counter_top.vhd":25:5:25:6|Found inferred clock Counter|clk which controls 26 sequential elements including scounter[25:0]. This clock has no specified timing constraint which may adversely impact design performance. 
+
+ICG Latch Removal Summary:
+Number of ICG latches removed: 0
+Number of ICG latches not removed:	0
+
+
+@S |Clock Optimization Summary
+
+
+
+#### START OF PREMAP CLOCK OPTIMIZATION REPORT #####[
+
+1 non-gated/non-generated clock tree(s) driving 26 clock pin(s) of sequential element(s)
+0 gated/generated clock tree(s) driving 0 clock pin(s) of sequential element(s)
+0 instances converted, 0 sequential instances remain driven by gated/generated clocks
+
+=========================== Non-Gated/Non-Generated Clocks ============================
+Clock Tree ID     Driving Element     Drive Element Type     Fanout     Sample Instance
+---------------------------------------------------------------------------------------
+@KP:ckid0_0       clk                 port                   26         scounter[25:0] 
+=======================================================================================
+
+
+##### END OF CLOCK OPTIMIZATION REPORT ######
+
+@N: FX1143 |Skipping assigning INTERNAL_VREF to iobanks, because the table of mapping from pin to iobank is not initialized.
+Finished Pre Mapping Phase.
+@N: BN225 |Writing default property annotation file C:\Users\ubu\my_designs\led_ice40up_bb\impl_1\led_ice40up_bb_impl_1.sap.
+
+Starting constraint checker (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:00s; Memory used current: 162MB peak: 162MB)
+
+
+Finished constraint checker preprocessing (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:00s; Memory used current: 162MB peak: 162MB)
+
+
+Finished constraint checker (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 162MB peak: 162MB)
+
+Pre-mapping successful!
+
+At Mapper Exit (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 80MB peak: 164MB)
+
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+# Wed Apr 28 16:35:35 2021
+
+###########################################################]
+Map & Optimize Report
+
+# Wed Apr 28 16:35:36 2021
+
+
+Copyright (C) 1994-2020 Synopsys, Inc.
+This Synopsys software and all associated documentation are proprietary to Synopsys, Inc.
+and may only be used pursuant to the terms and conditions of a written license agreement
+with Synopsys, Inc. All other use, reproduction, modification, or distribution of the
+Synopsys software or the associated documentation is strictly prohibited.
+Tool: Synplify Pro (R)
+Build: Q-2020.03LR-SP1-1
+Install: C:\lscc\radiant\2.2\synpbase
+OS: Windows 6.2
+
+Hostname: DESKTOP-3K3974S
+
+Implementation : impl_1
+Synopsys Lattice Technology Mapper, Version map202003lat, Build 176R, Built Mar  2 2021 10:26:35, @
+
+
+Mapper Startup Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 117MB peak: 117MB)
+
+@N: MF916 |Option synthesis_strategy=base is enabled. 
+@N: MF248 |Running in 64-bit mode.
+@N: MF667 |Clock conversion disabled. (Command "set_option -fix_gated_and_generated_clocks 0" in the project file.)
+
+Design Input Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 120MB peak: 128MB)
+
+
+Mapper Initialization Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 120MB peak: 128MB)
+
+
+Start loading timing files (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 121MB peak: 128MB)
+
+
+Finished loading timing files (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 123MB peak: 128MB)
+
+
+
+Starting Optimization and Mapping (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 159MB peak: 159MB)
+
+
+Available hyper_sources - for debug and ip models
+	None Found
+
+
+Finished RTL optimizations (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 162MB peak: 162MB)
+
+@N: MO231 :"c:\users\ubu\my_designs\led_ice40up_bb\source\impl_1\counter_top.vhd":25:5:25:6|Found counter in view:work.Counter(behavioral) instance scounter[25:0] 
+
+Starting factoring (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 162MB peak: 162MB)
+
+
+Finished factoring (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 162MB peak: 163MB)
+
+
+Finished generic timing optimizations - Pass 1 (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 163MB peak: 163MB)
+
+
+Starting Early Timing Optimization (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 163MB peak: 163MB)
+
+
+Finished Early Timing Optimization (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 163MB peak: 163MB)
+
+
+Finished generic timing optimizations - Pass 2 (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 163MB peak: 163MB)
+
+
+Finished preparing to map (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 163MB peak: 163MB)
+
+
+Finished technology mapping (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 164MB peak: 164MB)
+
+Pass		 CPU time		Worst Slack		Luts / Registers
+------------------------------------------------------------
+   1		0h:00m:01s		     0.29ns		  29 /        26
+   2		0h:00m:01s		     0.29ns		  29 /        26
+
+Finished technology timing optimizations and critical path resynthesis (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 165MB peak: 165MB)
+
+
+Finished restoring hierarchy (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 165MB peak: 165MB)
+
+
+Start Writing Netlists (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 137MB peak: 165MB)
+
+Writing Analyst data base C:\Users\ubu\my_designs\led_ice40up_bb\impl_1\synwork\led_ice40up_bb_impl_1_m.srm
+
+Finished Writing Netlist Databases (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 165MB peak: 165MB)
+
+Writing Verilog Simulation files
+
+Writing scf file... (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:02s; Memory used current: 166MB peak: 166MB)
+
+@N: BW103 |The default time unit for the Synopsys Constraint File (SDC or FDC) is 1ns.
+@N: BW107 |Synopsys Constraint File capacitance units using default value of 1pF 
+
+Finished Writing Verilog Simulation files (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:00m:02s; Memory used current: 166MB peak: 166MB)
+
+
+Start final timing analysis (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:00m:02s; Memory used current: 166MB peak: 166MB)
+
+@W: MT420 |Found inferred clock Counter|clk with period 5.00ns. Please declare a user-defined clock on port clk.
+
+
+##### START OF TIMING REPORT #####[
+# Timing report written on Wed Apr 28 16:35:38 2021
+#
+
+
+Top view:               Counter
+Requested Frequency:    200.0 MHz
+Wire load mode:         top
+Paths requested:        5
+Constraint File(s):    
+@N: MT320 |This timing report is an estimate of place and route data. For final timing results, use the FPGA vendor place and route report.
+
+@N: MT322 |Clock constraints include only register-to-register paths associated with each individual clock.
+
+
+
+Performance Summary
+*******************
+
+
+Worst slack in design: -1.952
+
+                   Requested     Estimated     Requested     Estimated                Clock        Clock              
+Starting Clock     Frequency     Frequency     Period        Period        Slack      Type         Group              
+----------------------------------------------------------------------------------------------------------------------
+Counter|clk        200.0 MHz     NA            5.000         NA            NA         inferred     Inferred_clkgroup_0
+System             200.0 MHz     143.8 MHz     5.000         6.952         -1.952     system       system_clkgroup    
+======================================================================================================================
+Estimated period and frequency reported as NA means no slack depends directly on the clock waveform
+
+
+
+
+
+Clock Relationships
+*******************
+
+Clocks            |    rise  to  rise    |    fall  to  fall   |    rise  to  fall   |    fall  to  rise 
+---------------------------------------------------------------------------------------------------------
+Starting  Ending  |  constraint  slack   |  constraint  slack  |  constraint  slack  |  constraint  slack
+---------------------------------------------------------------------------------------------------------
+System    System  |  5.000       -1.952  |  No paths    -      |  No paths    -      |  No paths    -    
+=========================================================================================================
+ Note: 'No paths' indicates there are no paths in the design for that pair of clock edges.
+       'Diff grp' indicates that paths exist but the starting clock and ending clock are in different clock groups.
+
+
+
+Interface Information 
+*********************
+
+No IO constraint found
+
+
+
+====================================
+Detailed Report for Clock: System
+====================================
+
+
+
+Starting Points with Worst Slack
+********************************
+
+                 Starting                                           Arrival           
+Instance         Reference     Type        Pin     Net              Time        Slack 
+                 Clock                                                                
+--------------------------------------------------------------------------------------
+en_ibuf          System        IB          O       en_c             0.000       -1.952
+scounter[0]      System        FD1P3DZ     Q       scounter[0]      0.796       -1.540
+scounter[23]     System        FD1P3DZ     Q       scounter[23]     0.796       -1.396
+scounter[24]     System        FD1P3DZ     Q       scounter[24]     0.796       -1.396
+scounter[25]     System        FD1P3DZ     Q       scounter[25]     0.796       -1.396
+scounter[1]      System        FD1P3DZ     Q       scounter[1]      0.796       -1.248
+scounter[2]      System        FD1P3DZ     Q       scounter[2]      0.796       -1.248
+scounter[3]      System        FD1P3DZ     Q       scounter[3]      0.796       -0.956
+scounter[4]      System        FD1P3DZ     Q       scounter[4]      0.796       -0.956
+scounter[5]      System        FD1P3DZ     Q       scounter[5]      0.796       -0.664
+======================================================================================
+
+
+Ending Points with Worst Slack
+******************************
+
+                Starting                                   Required           
+Instance        Reference     Type        Pin     Net      Time         Slack 
+                Clock                                                         
+------------------------------------------------------------------------------
+scounter[0]     System        FD1P3DZ     SP      en_c     4.845        -1.952
+scounter[1]     System        FD1P3DZ     SP      en_c     4.845        -1.952
+scounter[2]     System        FD1P3DZ     SP      en_c     4.845        -1.952
+scounter[3]     System        FD1P3DZ     SP      en_c     4.845        -1.952
+scounter[4]     System        FD1P3DZ     SP      en_c     4.845        -1.952
+scounter[5]     System        FD1P3DZ     SP      en_c     4.845        -1.952
+scounter[6]     System        FD1P3DZ     SP      en_c     4.845        -1.952
+scounter[7]     System        FD1P3DZ     SP      en_c     4.845        -1.952
+scounter[8]     System        FD1P3DZ     SP      en_c     4.845        -1.952
+scounter[9]     System        FD1P3DZ     SP      en_c     4.845        -1.952
+==============================================================================
+
+
+
+Worst Path Information
+***********************
+
+
+Path information for path number 1: 
+      Requested Period:                      5.000
+    - Setup time:                            0.155
+    + Clock delay at ending point:           0.000 (ideal)
+    + Estimated clock delay at ending point: 0.000
+    = Required time:                         4.845
+
+    - Propagation time:                      6.797
+    - Clock delay at starting point:         0.000 (ideal)
+    - Estimated clock delay at start point:  -0.000
+    = Slack (critical) :                     -1.952
+
+    Number of logic level(s):                0
+    Starting point:                          en_ibuf / O
+    Ending point:                            scounter[0] / SP
+    The start point is clocked by            System [rising]
+    The end   point is clocked by            System [rising] on pin CK
+
+Instance / Net                 Pin      Pin               Arrival     No. of    
+Name               Type        Name     Dir     Delay     Time        Fan Out(s)
+--------------------------------------------------------------------------------
+en_ibuf            IB          O        Out     0.000     0.000 r     -         
+en_c               Net         -        -       6.797     -           26        
+scounter[0]        FD1P3DZ     SP       In      -         6.797 r     -         
+================================================================================
+Total path delay (propagation time + setup) of 6.952 is 0.155(2.2%) logic and 6.797(97.8%) route.
+Path delay compensated for clock skew. Clock skew is added to clock-to-out value, and is subtracted from setup time value
+
+
+Path information for path number 2: 
+      Requested Period:                      5.000
+    - Setup time:                            0.155
+    + Clock delay at ending point:           0.000 (ideal)
+    + Estimated clock delay at ending point: 0.000
+    = Required time:                         4.845
+
+    - Propagation time:                      6.797
+    - Clock delay at starting point:         0.000 (ideal)
+    - Estimated clock delay at start point:  -0.000
+    = Slack (critical) :                     -1.952
+
+    Number of logic level(s):                0
+    Starting point:                          en_ibuf / O
+    Ending point:                            scounter[1] / SP
+    The start point is clocked by            System [rising]
+    The end   point is clocked by            System [rising] on pin CK
+
+Instance / Net                 Pin      Pin               Arrival     No. of    
+Name               Type        Name     Dir     Delay     Time        Fan Out(s)
+--------------------------------------------------------------------------------
+en_ibuf            IB          O        Out     0.000     0.000 r     -         
+en_c               Net         -        -       6.797     -           26        
+scounter[1]        FD1P3DZ     SP       In      -         6.797 r     -         
+================================================================================
+Total path delay (propagation time + setup) of 6.952 is 0.155(2.2%) logic and 6.797(97.8%) route.
+Path delay compensated for clock skew. Clock skew is added to clock-to-out value, and is subtracted from setup time value
+
+
+Path information for path number 3: 
+      Requested Period:                      5.000
+    - Setup time:                            0.155
+    + Clock delay at ending point:           0.000 (ideal)
+    + Estimated clock delay at ending point: 0.000
+    = Required time:                         4.845
+
+    - Propagation time:                      6.797
+    - Clock delay at starting point:         0.000 (ideal)
+    - Estimated clock delay at start point:  -0.000
+    = Slack (critical) :                     -1.952
+
+    Number of logic level(s):                0
+    Starting point:                          en_ibuf / O
+    Ending point:                            scounter[2] / SP
+    The start point is clocked by            System [rising]
+    The end   point is clocked by            System [rising] on pin CK
+
+Instance / Net                 Pin      Pin               Arrival     No. of    
+Name               Type        Name     Dir     Delay     Time        Fan Out(s)
+--------------------------------------------------------------------------------
+en_ibuf            IB          O        Out     0.000     0.000 r     -         
+en_c               Net         -        -       6.797     -           26        
+scounter[2]        FD1P3DZ     SP       In      -         6.797 r     -         
+================================================================================
+Total path delay (propagation time + setup) of 6.952 is 0.155(2.2%) logic and 6.797(97.8%) route.
+Path delay compensated for clock skew. Clock skew is added to clock-to-out value, and is subtracted from setup time value
+
+
+Path information for path number 4: 
+      Requested Period:                      5.000
+    - Setup time:                            0.155
+    + Clock delay at ending point:           0.000 (ideal)
+    + Estimated clock delay at ending point: 0.000
+    = Required time:                         4.845
+
+    - Propagation time:                      6.797
+    - Clock delay at starting point:         0.000 (ideal)
+    - Estimated clock delay at start point:  -0.000
+    = Slack (critical) :                     -1.952
+
+    Number of logic level(s):                0
+    Starting point:                          en_ibuf / O
+    Ending point:                            scounter[3] / SP
+    The start point is clocked by            System [rising]
+    The end   point is clocked by            System [rising] on pin CK
+
+Instance / Net                 Pin      Pin               Arrival     No. of    
+Name               Type        Name     Dir     Delay     Time        Fan Out(s)
+--------------------------------------------------------------------------------
+en_ibuf            IB          O        Out     0.000     0.000 r     -         
+en_c               Net         -        -       6.797     -           26        
+scounter[3]        FD1P3DZ     SP       In      -         6.797 r     -         
+================================================================================
+Total path delay (propagation time + setup) of 6.952 is 0.155(2.2%) logic and 6.797(97.8%) route.
+Path delay compensated for clock skew. Clock skew is added to clock-to-out value, and is subtracted from setup time value
+
+
+Path information for path number 5: 
+      Requested Period:                      5.000
+    - Setup time:                            0.155
+    + Clock delay at ending point:           0.000 (ideal)
+    + Estimated clock delay at ending point: 0.000
+    = Required time:                         4.845
+
+    - Propagation time:                      6.797
+    - Clock delay at starting point:         0.000 (ideal)
+    - Estimated clock delay at start point:  -0.000
+    = Slack (critical) :                     -1.952
+
+    Number of logic level(s):                0
+    Starting point:                          en_ibuf / O
+    Ending point:                            scounter[4] / SP
+    The start point is clocked by            System [rising]
+    The end   point is clocked by            System [rising] on pin CK
+
+Instance / Net                 Pin      Pin               Arrival     No. of    
+Name               Type        Name     Dir     Delay     Time        Fan Out(s)
+--------------------------------------------------------------------------------
+en_ibuf            IB          O        Out     0.000     0.000 r     -         
+en_c               Net         -        -       6.797     -           26        
+scounter[4]        FD1P3DZ     SP       In      -         6.797 r     -         
+================================================================================
+Total path delay (propagation time + setup) of 6.952 is 0.155(2.2%) logic and 6.797(97.8%) route.
+Path delay compensated for clock skew. Clock skew is added to clock-to-out value, and is subtracted from setup time value
+
+
+
+##### END OF TIMING REPORT #####]
+
+Timing exceptions that could not be applied
+
+Finished final timing analysis (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:00m:02s; Memory used current: 166MB peak: 166MB)
+
+
+Finished timing report (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:00m:02s; Memory used current: 166MB peak: 166MB)
+
+---------------------------------------
+Resource Usage Report for Counter 
+
+Mapping to part: ice40up5kuwg30i-6
+Cell usage:
+CCU2_B          14 uses
+FD1P3DZ         26 uses
+LUT4            4 uses
+
+I/O ports: 6
+I/O primitives: 6
+IB             3 uses
+OB             3 uses
+
+I/O Register bits:                  0
+Register bits not including I/Os:   26 of 5280 (0%)
+Total load per clock:
+   Counter|clk: 1
+
+@S |Mapping Summary:
+Total  LUTs: 4 (0%)
+
+Distribution of All Consumed LUTs = LUT4 
+Distribution of All Consumed LUTs 4 = 4 
+
+Mapper successful!
+
+At Mapper Exit (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:00m:02s; Memory used current: 57MB peak: 166MB)
+
+Process took 0h:00m:02s realtime, 0h:00m:02s cputime
+# Wed Apr 28 16:35:38 2021
+
+###########################################################]
+
+
+
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+</PRE></DIV>
+
+<button id="back_to_top" class="radiant" onclick="scrollToTop()">&lt;</button>
+<script type="text/javascript">
+<!--
+var scrollStep = 0;
+function scrollToTop(){
+  var funScroll = function() {
+    var top = document.body.scrollTop;
+    if (top == 0) {
+      scrollStep = 0;
+      return;
+    }
+    if (scrollStep == 0)
+      scrollStep = top/20 + 1;
+    top -= scrollStep;
+    if (top < 0)
+      top = 0;
+    document.body.scrollTop = top;
+    requestAnimationFrame(funScroll);
+  };
+  funScroll();
+}
+
+window.addEventListener('scroll', function(e) {
+  var backToTop = document.getElementById('back_to_top')
+  if (document.body.scrollTop > 0) {
+    backToTop.style.display = 'block';
+  } else {	backToTop.style.display = 'none'  }});
+
+//-->
+</script>
+
+<style type="text/css">
+#back_to_top {
+  bottom:20px; right:20px;
+  width:30px; height:30px;
+  font-size: 20px;
+  padding: 2px 5px 2px 5px;
+  position:fixed;
+  background-color:rgba(210,210,210,0.1);
+  border-style: solid;
+  border-color: rgba(192,192,192,0.8);
+  border-width:1px;
+  display:none;
+  -webkit-transform: rotate(90deg);
+  -webkit-transform-origin:50% 50%;
+}
+#back_to_top:focus {
+  outline-width:0px;
+}
+</style>
+
+</BODY>
+

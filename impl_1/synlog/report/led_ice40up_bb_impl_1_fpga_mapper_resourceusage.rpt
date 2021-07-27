@@ -1,0 +1,23 @@
+---------------------------------------
+Resource Usage Report for Counter 
+
+Mapping to part: ice40up5kuwg30i-6
+Cell usage:
+CCU2_B          14 uses
+FD1P3DZ         26 uses
+LUT4            4 uses
+
+I/O ports: 6
+I/O primitives: 6
+IB             3 uses
+OB             3 uses
+
+I/O Register bits:                  0
+Register bits not including I/Os:   26 of 5280 (0%)
+
+@S |Mapping Summary:
+Total  LUTs: 4 (0%)
+
+Distribution of All Consumed LUTs = LUT4 
+Distribution of All Consumed LUTs 4 = 4 
+
